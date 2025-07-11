@@ -21,6 +21,8 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(title: const Text("Register"),),
       body: Column(
         children: [
+          TextField(),
+          TextField(),
           TextButton(onPressed: (){}, child: const Text('Register')),
         ],
       ),
