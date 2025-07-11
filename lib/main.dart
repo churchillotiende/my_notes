@@ -19,7 +19,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Register"),),
-      body: Center(child: TextButton(onPressed: (){}, child: const Text('Register'))),
+      body: Column(
+        children: [
+          TextButton(onPressed: (){}, child: const Text('Register')),
+        ],
+      ),
     );
   }
 }
